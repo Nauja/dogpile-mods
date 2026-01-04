@@ -20,9 +20,9 @@ Put all the content of the archive next to the game executable, for example in `
 
 Start the game.
 
-If it works, you should see logs in `steamapps\common\Dogpile\BepInEx\LogOutput.log`.
+If it works, you should see some logs in `steamapps\common\Dogpile\BepInEx\LogOutput.log`.
 
-You can close the game and install my mods in `steamapps\common\Dogpile\BepInEx\plugins`.
+You can close the game and install my mods in `steamapps\common\Dogpile\BepInEx\plugins` (done by dropping the dll of the mod into that directory).
 
 ## Build
 
