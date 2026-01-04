@@ -4,6 +4,8 @@
 
 My own mods for the [Dogpile](https://store.steampowered.com/app/3839300/Dogpile/) game.
 
+<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3839300/b3e3e3a2c712e63b8d40958c9829053dec0f9b59/header.jpg?t=1765918502" width="500px"/>
+
 ## Installation
 
 You can find pre-built versions of my mods at https://www.nexusmods.com/ (see links below).
