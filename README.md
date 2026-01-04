@@ -46,4 +46,9 @@ For example, copy `dogpile-mods\ShowDebugMenu\bin\Release\net45\ShowDebugMenu.dl
 
 Allow to toggle the debug menu used by developers with F7 ingame.
 
+There is an hidden debug menu with functionalities such as adding money, bones, completing the goal, wining the game,
+that this mod allows you to unlock by pressing the F7 key (can be configured in `BepInEx\config\ShowDebugMenu.cfg`).
+
 Mod at: wip
+
+<img src="https://raw.githubusercontent.com/Nauja/dogpile-mods/media/ShowDebugMenu.png"/>
