@@ -20,9 +20,9 @@ Put all the content of the archive next to the game executable, for example in `
 
 Start the game.
 
-If it works, you should see some logs in `steamapps\common\Dogpile\BepInEx\LogOutput.log`.
+If it works, you should see some logs in `Dogpile\BepInEx\LogOutput.log`.
 
-You can close the game and install my mods in `steamapps\common\Dogpile\BepInEx\plugins` (done by dropping the dll of the mod into that directory).
+You can close the game and install my mods in `Dogpile\BepInEx\plugins` (done by dropping the dll of the mod into that directory).
 
 ## Build
 
@@ -36,9 +36,9 @@ Copy the folder `steamapps\common\Dogpile\dogpile_Data\Managed` to `dogpile-mods
 
 Then you can open the Visual Studio solution `dogpile-mods\DogpileMods.slnx` and build the desired mod.
 
-Once built, simply copy the produced dll to `steamapps\common\Dogpile\BepInEx\plugins`.
+Once built, simply copy the produced dll to `Dogpile\BepInEx\plugins`.
 
-For example, copy `dogpile-mods\ShowDebugMenu\bin\Release\net45\ShowDebugMenu.dll` to `steamapps\common\Dogpile\BepInEx\plugins`, then start the game.
+For example, copy `dogpile-mods\ShowDebugMenu\bin\Release\net45\ShowDebugMenu.dll` to `Dogpile\BepInEx\plugins`, then start the game.
 
 ## ShowDebugMenu
 
@@ -48,6 +48,8 @@ Allow to toggle the debug menu used by developers with F7 ingame.
 
 There is an hidden debug menu with functionalities such as adding money, bones, completing the goal, wining the game,
 that this mod allows you to unlock by pressing the F7 key (can be configured in `BepInEx\config\ShowDebugMenu.cfg`).
+
+⚠️ This mod requires that you set `HideManagerGameObject = true` in `BepInEx\config\BepInEx.cfg`.
 
 Mod at: wip
 
