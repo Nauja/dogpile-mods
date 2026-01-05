@@ -51,6 +51,6 @@ that this mod allows you to unlock by pressing the F7 key (can be configured in 
 
 ⚠️ This mod requires that you set `HideManagerGameObject = true` in `BepInEx\config\BepInEx.cfg`.
 
-Mod at: wip
+Mod at: https://www.nexusmods.com/dogpile/mods/1
 
 <img src="https://raw.githubusercontent.com/Nauja/dogpile-mods/media/ShowDebugMenu.png"/>
