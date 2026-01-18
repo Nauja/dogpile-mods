@@ -40,6 +40,22 @@ Once built, simply copy the produced dll to `Dogpile\BepInEx\plugins`.
 
 For example, copy `dogpile-mods\ShowDebugMenu\bin\Release\net45\ShowDebugMenu.dll` to `Dogpile\BepInEx\plugins`, then start the game.
 
+## SkinIt
+
+![Dogpile](https://img.shields.io/badge/Dogpile-1.04+-blue)
+
+Allow to create custom skins for dogs.
+
+This mod replaces the dog sprites by custom sprites that are bundled in a Unity asset and put in the `skins/` directory.
+
+* Pokémon skin: https://www.nexusmods.com/dogpile/mods/3
+
+⚠️ This mod requires that you set `HideManagerGameObject = true` in `BepInEx\config\BepInEx.cfg`.
+
+Mod at: https://www.nexusmods.com/dogpile/mods/2
+
+<img src="https://raw.githubusercontent.com/Nauja/dogpile-mods/media/PokemonSkin.png"/>
+
 ## ShowDebugMenu
 
 ![Dogpile](https://img.shields.io/badge/Dogpile-1.04+-blue)
