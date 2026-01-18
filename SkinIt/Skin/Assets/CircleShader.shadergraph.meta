@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 951b7bff5d32efb4a9895f5049410e3c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: boundingbox
+  assetBundleVariant: assets
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
