@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="ShowDebugMenu/ShowDebugMenu.csproj" Id="df6fc47a-1191-4998-b9c3-241f36cec8fa" />
   <Project Path="SkinIt/SkinIt.csproj" />
+  <Project Path="ViewersChoice/ViewersChoice.csproj" Id="cfb01cbf-f70c-460d-8a1f-b9d43be9c90c" />
 </Solution>
