@@ -26,6 +26,7 @@ namespace SkinIt
         private ConfigEntry<bool> ModEnabled;
         private ConfigEntry<string> skinName;
         //private ConfigEntry<KeyboardShortcut> spawnKey;
+        internal static bool skinLoaded;
         // Map dog sizes to skins
         internal static Dictionary<int, Skin> sizeToSkin;
         private bool dogPrefabsPatched;
@@ -54,7 +55,10 @@ namespace SkinIt
             {
                 LoadSkin(skinName.Value);
 
-                Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
+                if (skinLoaded)
+                {
+                    Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
+                }
             }
         }
 
@@ -154,6 +158,8 @@ namespace SkinIt
                 sizeToSkin[size] = skin;
                 Logger.LogInfo($"Prefab {skinPrefabName} loaded");
             }
+
+            skinLoaded = true;
         }
 
         /// <summary>
@@ -163,7 +169,7 @@ namespace SkinIt
         {
             if (!ModEnabled.Value) return;
 
-            if (!dogPrefabsPatched) {
+            if (skinLoaded && !dogPrefabsPatched) {
                 PatchDogPrefabs();
             }
 
