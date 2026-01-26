@@ -12,6 +12,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: queen
       objectReference: {fileID: 0}
+    - target: {fileID: 4158653230057851278, guid: ac860c4359ca64d4d987ffbfbbaeeda3, type: 3}
+      propertyPath: m_Size.x
+      value: 4.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158653230057851278, guid: ac860c4359ca64d4d987ffbfbbaeeda3, type: 3}
+      propertyPath: m_Size.y
+      value: 4.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158653230057851278, guid: ac860c4359ca64d4d987ffbfbbaeeda3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e90bebdcde0fb824cbd8c4efb5e7863b, type: 3}
+    - target: {fileID: 4158653230057851278, guid: ac860c4359ca64d4d987ffbfbbaeeda3, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5638087568028758916, guid: ac860c4359ca64d4d987ffbfbbaeeda3, type: 3}
       propertyPath: m_Sprite
       value: 
