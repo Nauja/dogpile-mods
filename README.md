@@ -49,6 +49,7 @@ Allow to create custom skins for dogs.
 This mod replaces the dog sprites by custom sprites that are bundled in a Unity asset and put in the `skins/` directory.
 
 * Pokémon skin: https://www.nexusmods.com/dogpile/mods/3
+* Mario skin: https://www.nexusmods.com/dogpile/mods/4
 
 ⚠️ This mod requires that you set `HideManagerGameObject = true` in `BepInEx\config\BepInEx.cfg`.
 
